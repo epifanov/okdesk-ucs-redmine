@@ -5,7 +5,7 @@ pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
 stdout_path "#{root}/log/unicorn.log"
 
-listen "/tmp/ucs-redmine.sock"
+listen "/tmp/unicorn.ucs-redmine.sock"
 worker_processes 2
 timeout 30
 
